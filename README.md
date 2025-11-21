@@ -1,4 +1,4 @@
-![WhatsApp Image 2025-11-20 at 00 07 43 (1)](https://github.com/user-attachments/assets/0c985190-ef89-468e-be77-1ba27dc3b11f)# UTS_RE702_Slam_Navigation_Turtlebot4(pick-place)
+# UTS_RE702_Slam_Navigation_Turtlebot4(pick-place)
 "Integrasi SLAM, map generation, dan autonomous navigation pada TurtleBot4 untuk tugas UTS. Robot melakukan misi pick &amp; place dari Ruang 203 ke Lobby BRAIL dengan indikator buzzer ."
 
 ## case study
@@ -45,7 +45,7 @@ ssh ubuntu@192.168.185.3
 cd ~/kelompok4b_uts
 source /opt/ros/humble/setup.bash
 2. Build Package ROS 2
-# Buat package baru
+# new package
 ros2 pkg create --build-type ament_cmake --node-name nav_kel4b nav_kel4b --dependencies rclcpp nav2_msgs rclcpp_action tf2
 
 # Build package
